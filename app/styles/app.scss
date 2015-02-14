@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Cousine);
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+body {
+	background-color: #333333;
+	//background-color: #EAEAEA;
+	color: white;
+}
+
+.main-app {
+	width: 100%;
+}
+.pixel-display {
+	margin-left: auto;
+	margin-right: auto;
+	.pixel {
+		text-align: center;
+		display: inline-block;
+//		font-family: 'Cousine';
+		font-family: 'Source Code Pro';
+		font-size: 25px;
+		line-height: 0;
+		width:20px;
+		height:13px;
+		padding: 0;
+		margin: 0;
+		transition: color 0.2s linear;
+	}
+}
+.Intro {
+	font-family: 'Architects Daughter', cursive;
+	color: #333333;
+	font-size: 25px;
+	margin-left: 10px;
+	display: none;
+	div {
+		margin-top: 15px;
+	}
+}
+
+.step {
+	opacity: 0;
+}
+.step-show {
+	opacity: 1;
+}
+
+h1, h4 {
+		font-family: 'Architects Daughter', cursive;
+		text-align: center;
+		zoom: 2;
+}
